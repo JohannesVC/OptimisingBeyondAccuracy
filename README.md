@@ -1,10 +1,11 @@
-# Optimising Beyond Accuracy: Tuning for Diversity and Novelty in Attention-based News Recommenders
+# Optimising Beyond Accuracy 
+## Tuning for Diversity and Novelty in Attention-based News Recommenders
 
 This project implements and evaluates neural recommendation systems for news, with a focus on **beyond-accuracy metrics** such as *diversity* and *novelty*. Using the MIND dataset, it compares traditional and attention-based models, incorporating pre-trained language models (GloVe and BERT), and applies custom regularisation layers to encourage diverse and novel recommendations.
 
-## 🧠 Key Features
+## Key Features
 
-- Custom-built bi-encoder and cross-encoder architectures
+- Custom-built bi-encoder architectures
 - Integration of GloVe and fine-tuned BERT embeddings
 - Training pipeline with hard-negative sampling
 - Regularisation for Intra-List Diversity and Novelty
@@ -18,8 +19,6 @@ This project implements and evaluates neural recommendation systems for news, wi
 |-------------------|--------------------------------------|
 | Accuracy          | AUC, MRR, nDCG@5, nDCG@10            |
 | Beyond-Accuracy   | ILD, Surprisal, EPC, coverage      |
-
----
 
 ## Installation Instructions
 
@@ -40,23 +39,18 @@ pip install -r requirements.txt
 
 Download the MIND-small and/or MIND-large datasets from [msnews.github.io](https://msnews.github.io/), and place them in the `.data/` directory.
 
-
 ### 4. Recreate Embedding Layers
 
 To ensure reproducibility:
 
 - Use the `embedding_notebook.ipynb` to:
   - Build the GloVe lookup matrix
-  - Fine-tune the BERT embeddings (`bert_small_en_uncased`) on titles
+  - Fine-tune the BERT embeddings (`bert-base-uncased`) on titles
 - Save the results to `.npy` format in the `.data/` directory
-
----
 
 ## Run Notebooks
 
-All models are run from notebooks. Simply follow the steps above and press run.
-
----
+All models are run from notebooks. Simply follow the steps and press *run*.
 
 ## Results and Evaluation
 
