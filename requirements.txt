@@ -1,0 +1,15 @@
+huggingface-hub==0.27.1
+kagglehub==0.3.4
+keras==3.8.0
+keras-hub==0.17.0
+keras-tuner==1.4.7
+matplotlib==3.9.1
+numpy==1.26.4
+nltk==3.9.1
+nvidia-cuda-runtime-cu12==12.6.77
+nvidia-tensorrt==99.0.0
+pandas==1.5.3
+scikit-learn==1.6.1
+tensorboard==2.17.1
+seaborn
+colorcet==3.1.0
