@@ -74,6 +74,7 @@ After training, results (metrics and hyperparameters) are saved to `results.json
 ├── embeddings.ipynb    # Fine-tuning BERT + saving embeddings
 ├── evaluation.ipynb    # Evaluation scripts and plotting
 ├── README.md           # This file
+├── model.png           # Diagram of model
 ├── recs
 │   ├── bi_encoder.py   # Main training script
 │   ├── data_loader.py  # Preprocessing and sequence generation
