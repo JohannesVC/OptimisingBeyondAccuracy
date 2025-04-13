@@ -64,10 +64,10 @@ def write_log_results(modelname, dataset_size, history=None, hyperparams=None, *
         # Add all metrics
         final_results.update(metrics)
     
-    # if history:
-    #     # Add the final value for every key
-    #     final_results.update({k: round(history.history[k][-1], 4) 
-    #                           for k in history.history.keys()})
+    if history:
+        # Add the final value for every key
+        final_results.update({k: round(history.history[k][-1], 4) 
+                              for k in history.history.keys()})
         
     if hyperparams:
         final_results.update(hyperparams)

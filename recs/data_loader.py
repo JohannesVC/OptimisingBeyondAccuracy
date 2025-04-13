@@ -442,7 +442,7 @@ class DataLoader:
         del histories, imprs, labels, _
     
     def get_ragged_batch(self, behaviors_file, batch_size=64, vectorizer=None): 
-        """Gets a variable sized batch. TBC."""    
+        """Gets a variable sized batch with a generator."""    
         self.init_len()
         if behaviors_file == self.train:
             def gen():

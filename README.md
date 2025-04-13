@@ -9,7 +9,7 @@ This project implements and evaluates neural recommendation systems for news, wi
 - Integration of GloVe and fine-tuned BERT embeddings
 - Training pipeline with hard-negative sampling
 - Regularisation for Intra-List Diversity and Novelty
-- Evaluation on both accuracy and normative metrics
+- Evaluation on both accuracy and beyond-accuracy metrics
 - Statistical validation with t-tests and visualisations
 
 
@@ -43,7 +43,7 @@ Download the MIND-small and/or MIND-large datasets from [msnews.github.io](https
 
 To ensure reproducibility:
 
-- Use the `embedding_notebook.ipynb` to:
+- Use the `embeddings.ipynb` to:
   - Build the GloVe lookup matrix
   - Fine-tune the BERT embeddings (`bert-base-uncased`) on titles
 - Save the results to `.npy` format in the `.data/` directory
@@ -54,10 +54,11 @@ All models are run from notebooks. Simply follow the steps and press *run*.
 
 ## Results and Evaluation
 
-After training, results (metrics and hyperparameters) are saved to `results.json`. Evaluation scripts are provided in the `evaluation` notebook. These include:
+After training, results (metrics and hyperparameters) are saved to `results.json`. Evaluation scripts are provided in the `evaluation.ipynb` notebook. These include:
 
 - Accuracy vs diversity trade-offs
 - Metric comparisons across model types
+- All plots used in the main report
 
 ---
 
