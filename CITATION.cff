@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Optimising Beyond Accuracy: Tuning for Diversity and Novelty in Attention-based News Recommenders"
+authors:
+  - family-names: "Van Cauwenberghe"
+    given-names: "Johannes"
+    affiliation: "University of London"
+version: "1.0"
+doi: 10.5281/zenodo.15322092
+date-released: 2025-04-13
+url: "https://github.com/JohannesVC/OptimisingBeyondAccuracy"
+license: MIT
