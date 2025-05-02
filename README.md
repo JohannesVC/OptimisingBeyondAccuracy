@@ -95,6 +95,24 @@ MIT License.
 
 ---
 
+## Citation
+
+If you reference or build upon this work, please cite it using the following:
+
+```bibtex
+@software{Van_Cauwenberghe_Optimising_Beyond_Accuracy_2025,
+author = {Van Cauwenberghe, Johannes},
+doi = {10.5281/zenodo.15322092},
+license = {MIT},
+month = apr,
+title = {{Optimising Beyond Accuracy: Tuning for Diversity and Novelty in Attention-based News Recommenders}},
+url = {https://github.com/JohannesVC/OptimisingBeyondAccuracy},
+version = {1.0},
+year = {2025}
+}
+```
+
+---
 ## Acknowledgements
 
 - [MIND dataset](https://msnews.github.io/) by Microsoft Research
